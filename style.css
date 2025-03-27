@@ -159,16 +159,22 @@ body.menu-expanded #navigation .logo path,
 /* Estilo original do menu */
 nav {
   display: flex;
+
   height: var(--nav-height);
+
   position: fixed;
   top: 0;
   width: 100vw;
-  z-index: 100;
-  transition: background-color 0.3s ease; /* Para um efeito suave */
-}
 
+  z-index: 100;
+}
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 nav.scroll {
-  background-color: #dce9e7; /* Cor do menu ao rolar */
+  background-color: #dce9e7;
 }
 
 nav button {
