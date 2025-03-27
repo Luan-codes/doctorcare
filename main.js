@@ -84,19 +84,6 @@ function closeMenu() {
   document.body.classList.remove('menu-expanded')
 }
 
-// Selecione o elemento nav
-const nav = document.getElementById("nav");
-
-// Função para adicionar/remover a classe "scroll" com base na posição do scroll
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 0) {
-    nav.classList.add("scroll");  // Adiciona a classe se rolou para baixo
-  } else {
-    nav.classList.remove("scroll");  // Remove a classe se voltar ao topo
-  }
-});
-
-
 ScrollReveal({
   origin: 'top',
   distance: '30px',
