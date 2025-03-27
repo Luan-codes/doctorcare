@@ -152,7 +152,7 @@ body.menu-expanded #navigation .logo path,
 }
 
 #navigation.scroll button.open-menu path[stroke*='#00856F'] {
-  stroke: white;
+  stroke: #ffffff;
 }
 /* NAVIGATION ========================================*/
 
@@ -173,7 +173,7 @@ nav .wrapper {
   justify-content: space-between;
 }
 nav.scroll {
-  background-color: var(--primary-color);
+  background-color: #dce9e7;
 }
 
 nav button {
