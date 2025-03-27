@@ -156,24 +156,19 @@ body.menu-expanded #navigation .logo path,
 }
 /* NAVIGATION ========================================*/
 
+/* Estilo original do menu */
 nav {
   display: flex;
-
   height: var(--nav-height);
-
   position: fixed;
   top: 0;
   width: 100vw;
-
   z-index: 100;
+  transition: background-color 0.3s ease; /* Para um efeito suave */
 }
-nav .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 nav.scroll {
-  background-color: #dce9e7;
+  background-color: #dce9e7; /* Cor do menu ao rolar */
 }
 
 nav button {
@@ -186,7 +181,6 @@ nav .menu,
 nav .close-menu {
   position: fixed;
 }
-
 /* MENU EXPANDED ========================================*/
 body.menu-expanded {
   overflow: hidden;
